@@ -218,3 +218,5 @@ function update() {
 
 	printf "\nDone.\nPlease restart your system.\n"
 }
+
+update
