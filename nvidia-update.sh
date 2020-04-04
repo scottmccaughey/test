@@ -28,7 +28,7 @@ function usage() {
 }
 
 function temp_pkg_path() {
-	echo "/usr/local/$(uuidgen).pkg"
+	echo "$DARWIN_USER_TEMP_DIR/$(uuidgen).pkg"
 }
 
 function realpath() {
@@ -218,5 +218,3 @@ function update() {
 
 	printf "\nDone.\nPlease restart your system.\n"
 }
-
-update
